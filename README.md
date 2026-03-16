@@ -18,7 +18,7 @@ Built for non-technical people and technical people alike, this framework takes 
 ## Getting Started
 
 1. Open Claude Code in your project folder
-2. Type `/setup`
+2. Type `/start`
 3. Answer Claude's questions, no technical knowledge needed
 4. When setup is complete, type `/build [your first feature]` (This framework usually proceeds automatically)
 
@@ -30,7 +30,7 @@ Commands in this kit are typed directly in Claude Code. How they appear depends 
 
 | In VS Code/IDE | In Claude Code CLI |
 |---|---|
-| `/setup` | `/project:setup` |
+| `/start` | `/project:start` |
 | `/build` | `/project:build` |
 | `/continue` | `/project:continue` |
 | `/fix` | `/project:fix` |
@@ -46,7 +46,7 @@ Both work identically, just use whichever form your environment shows. Type `/` 
 
 Planning and establishing context are simultaneously the most vital and tedious stages of building a successful vibecoded project. It is worth investing extra time to get this foundation right before you commence building. It can take a while to get this part complete, but perservere and the results will be worthwhile.
 
-Run `/setup`. Claude will have a friendly conversation with you and ask about:
+Run `/start`. Claude will have a friendly conversation with you and ask about:
 
 - What you're building and who it's for
 - The problem it solves
@@ -94,7 +94,7 @@ If you close the chat and come back later, just type `/continue`, Claude will fi
 
 | Command | What it does |
 |---|---|
-| `/setup` | **Start here.** Runs the setup wizard to understand your idea and generate all project context files. Run once on a new project. |
+| `/start` | **Start here.** Runs the setup wizard to understand your idea and generate all project context files. Run once on a new project. |
 | `/continue` | Pick up where you left off. Claude reads the project state, figures out what was in progress, and resumes — no explanation needed. Use this any time you start a new session or feel lost. |
 | `/build [feature]` | Build a feature end-to-end — spec, code, review, tests, browser testing, and docs. Example: `/build user login` |
 | `/fix [bug]` | Fix a bug. Describe what's wrong in plain English and Claude investigates and fixes it. Example: `/fix the signup form isn't sending emails` |
